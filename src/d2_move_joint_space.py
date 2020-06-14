@@ -37,9 +37,9 @@ if __name__ == "__main__":
     joint_goal[4] = pi/2
     joint_goal[5] = 0'''
     joint_goal[0] = 0
-    joint_goal[1] = 0
-    joint_goal[2] = 0
-    joint_goal[3] = 0
+    joint_goal[1] = -1.000
+    joint_goal[2] = 0.300
+    joint_goal[3] = 0.700
 
 
     move_group.go(joint_goal, wait=True)

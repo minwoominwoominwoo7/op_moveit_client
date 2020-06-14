@@ -27,8 +27,8 @@ if __name__ == "__main__":
 
     # Move using target_pose
     x = 0.194
-    y = 0.100 - 0.1
-    z = 0.303 + 0.1
+    y = - 0.100 
+    z = 0.15 
 
     test = [ x, y , z]
     move_group.set_position_target(test)
